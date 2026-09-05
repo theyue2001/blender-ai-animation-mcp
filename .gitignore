@@ -1,0 +1,10 @@
+# Product renders/screenshots are covered by NDA - do not commit image files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tga
+*.tif
+*.tiff
+*.webp
+*.exr
