@@ -1,0 +1,1 @@
+done tail frames=[325, 340, 365, 380, 400, 450] scene=01_SCN_OPENING_P01_P03 dirty=False

@@ -1,0 +1,824 @@
+{
+ "probed_at": "2026-09-05 12:47:00",
+ "blend": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\膠體內部_OPENING_P01_P03_v035.blend",
+ "blend_mtime": "2026-09-05 12:41",
+ "blender": "4.3.2",
+ "is_dirty": false,
+ "window_scene": "04_SCN_P08_SLEEVE_TUNNEL",
+ "autosave": true,
+ "scenes": [
+  {
+   "name": "01_SCN_OPENING_P01_P03",
+   "frame_start": 1,
+   "frame_end": 360,
+   "fps": 24.0,
+   "engine": "CYCLES",
+   "res": [
+    1920,
+    1080,
+    100
+   ],
+   "samples": 256,
+   "camera": "CAM_Opening_Silhouette",
+   "n_objects": 18,
+   "cameras": [
+    "CAM_Opening_Black",
+    "CAM_Opening_Silhouette",
+    "CAM_Opening_Worn"
+   ],
+   "lights": [
+    "LGT_Opening_Silhouette_Rim_L",
+    "LGT_Opening_Silhouette_Rim_R",
+    "LGT_Opening_Silhouette_Top",
+    "LGT_Opening_Logo_Accent",
+    "LGT_Opening_Worn_Rim_L",
+    "LGT_Opening_Worn_Rim_R",
+    "LGT_Opening_Worn_Key",
+    "LGT_Opening_Worn_Product_Fill",
+    "LGT_Opening_Logo_Highlight"
+   ],
+   "n_drivers": 0,
+   "markers": [
+    {
+     "frame": 1,
+     "name": "SHOT_01_CONTINUOUS_OPENING",
+     "camera": "CAM_Opening_Silhouette"
+    }
+   ],
+   "markers_outside": [],
+   "shots": [
+    {
+     "name": "SHOT_01_CONTINUOUS_OPENING",
+     "start": 1,
+     "end": 360,
+     "camera": "CAM_Opening_Silhouette",
+     "keys": {
+      "obj": 18,
+      "cam": 15,
+      "lgt": 322,
+      "mat": 4,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 359,
+     "n_animated": 23,
+     "frames": 360
+    }
+   ],
+   "n_animated_sources": 23,
+   "nla": [],
+   "render_filepath": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\OPENING_P01_P03_FINAL_v030\\frame_",
+   "render_abspath": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\OPENING_P01_P03_FINAL_v030\\frame_"
+  },
+  {
+   "name": "02_Scene_02_Page04_Material_Exterior_Quality",
+   "frame_start": 217,
+   "frame_end": 1175,
+   "fps": 24.0,
+   "engine": "CYCLES",
+   "res": [
+    1920,
+    1080,
+    100
+   ],
+   "samples": 4096,
+   "camera": "CAM_P04_03_Rear_Emboss_Logo",
+   "n_objects": 121,
+   "cameras": [
+    "CAM_P04_01_Silhouette_Slider",
+    "CAM_P04_ARCHIVE_02_Front_Decal_Logo",
+    "CAM_P04_02_Control_Detail_Slide",
+    "CAM_P04_04_Right_Rear_Arc_Rise",
+    "CAM_P04_05_High_Rear_Slide",
+    "CAM_P04_06_Final_Hero_Hold",
+    "CAM_P04_03_Rear_Emboss_Logo",
+    "CAM_P04_07_Exploded_Orbit",
+    "CAM_P04_08_Power_Ignition"
+   ],
+   "lights": [
+    "LGT_P04_Emboss_Logo_Highlight",
+    "LGT_P04_EXP_Emboss_Logo_Highlight",
+    "LGT_P04_Right_Rim_Strip",
+    "LGT_P04_Rear_Contour_Strip",
+    "LGT_P04_Low_Edge_Strip",
+    "LGT_P04_Hero_Sculpt_Strip",
+    "LGT_P04_Front_Reflection_Strip",
+    "LGT_P04_Fixed_Diagonal_Strip",
+    "LGT_P04_Left_Rim_Strip",
+    "LGT_P04_Emboss_Key_Rake",
+    "LGT_P04_Emboss_Fill_Rake",
+    "LGT_P04_Emboss_Soft_Fill",
+    "LGT_P04_EXP_Orbit_Key",
+    "LGT_P04_EXP_Orbit_Rim",
+    "LGT_P04_EXP_Orbit_Fill",
+    "LGT_P04_IGNITION_Core",
+    "LGT_P04_IGNITION_Rear",
+    "LGT_P04_IGNITION_Wash",
+    "LGT_P04_IGNITION_Glyph_Spill"
+   ],
+   "n_drivers": 0,
+   "markers": [
+    {
+     "frame": 217,
+     "name": "SHOT_01_SILHOUETTE_SLIDER",
+     "camera": "CAM_P04_01_Silhouette_Slider"
+    },
+    {
+     "frame": 288,
+     "name": "SHOT_02_CONTROL_DETAIL",
+     "camera": "CAM_P04_02_Control_Detail_Slide"
+    },
+    {
+     "frame": 360,
+     "name": "SHOT_03_REAR_EMBOSS_LOGO",
+     "camera": "CAM_P04_03_Rear_Emboss_Logo"
+    },
+    {
+     "frame": 434,
+     "name": "SHOT_04_RIGHT_REAR_ARC_RISE",
+     "camera": "CAM_P04_04_Right_Rear_Arc_Rise"
+    },
+    {
+     "frame": 507,
+     "name": "SHOT_05_HIGH_REAR_STRUCTURE",
+     "camera": "CAM_P04_05_High_Rear_Slide"
+    },
+    {
+     "frame": 578,
+     "name": "SHOT_06_FINAL_HERO_HOLD",
+     "camera": "CAM_P04_06_Final_Hero_Hold"
+    },
+    {
+     "frame": 581,
+     "name": "SHOT_07_EXPLODED_360_ORBIT",
+     "camera": "CAM_P04_07_Exploded_Orbit"
+    },
+    {
+     "frame": 979,
+     "name": "SHOT_08_POWER_IGNITION",
+     "camera": "CAM_P04_08_Power_Ignition"
+    }
+   ],
+   "markers_outside": [],
+   "shots": [
+    {
+     "name": "SHOT_01_SILHOUETTE_SLIDER",
+     "start": 217,
+     "end": 287,
+     "camera": "CAM_P04_01_Silhouette_Slider",
+     "keys": {
+      "obj": 12,
+      "cam": 12,
+      "lgt": 4,
+      "mat": 2,
+      "shp": 0,
+      "scn": 4
+     },
+     "total_keys": 34,
+     "n_animated": 10,
+     "frames": 71
+    },
+    {
+     "name": "SHOT_02_CONTROL_DETAIL",
+     "start": 288,
+     "end": 359,
+     "camera": "CAM_P04_02_Control_Detail_Slide",
+     "keys": {
+      "obj": 14,
+      "cam": 24,
+      "lgt": 3,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 41,
+     "n_animated": 7,
+     "frames": 72
+    },
+    {
+     "name": "SHOT_03_REAR_EMBOSS_LOGO",
+     "start": 360,
+     "end": 433,
+     "camera": "CAM_P04_03_Rear_Emboss_Logo",
+     "keys": {
+      "obj": 15,
+      "cam": 21,
+      "lgt": 7,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 43,
+     "n_animated": 8,
+     "frames": 74
+    },
+    {
+     "name": "SHOT_04_RIGHT_REAR_ARC_RISE",
+     "start": 434,
+     "end": 506,
+     "camera": "CAM_P04_04_Right_Rear_Arc_Rise",
+     "keys": {
+      "obj": 9,
+      "cam": 9,
+      "lgt": 0,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 18,
+     "n_animated": 2,
+     "frames": 73
+    },
+    {
+     "name": "SHOT_05_HIGH_REAR_STRUCTURE",
+     "start": 507,
+     "end": 577,
+     "camera": "CAM_P04_05_High_Rear_Slide",
+     "keys": {
+      "obj": 12,
+      "cam": 12,
+      "lgt": 0,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 24,
+     "n_animated": 2,
+     "frames": 71
+    },
+    {
+     "name": "SHOT_06_FINAL_HERO_HOLD",
+     "start": 578,
+     "end": 580,
+     "camera": "CAM_P04_06_Final_Hero_Hold",
+     "keys": {
+      "obj": 121,
+      "cam": 3,
+      "lgt": 1,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 125,
+     "n_animated": 62,
+     "frames": 3
+    },
+    {
+     "name": "SHOT_07_EXPLODED_360_ORBIT",
+     "start": 581,
+     "end": 978,
+     "camera": "CAM_P04_07_Exploded_Orbit",
+     "keys": {
+      "obj": 336,
+      "cam": 41,
+      "lgt": 14,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 391,
+     "n_animated": 29,
+     "frames": 398
+    },
+    {
+     "name": "SHOT_08_POWER_IGNITION",
+     "start": 979,
+     "end": 1175,
+     "camera": "CAM_P04_08_Power_Ignition",
+     "keys": {
+      "obj": 105,
+      "cam": 18,
+      "lgt": 22,
+      "mat": 379,
+      "shp": 0,
+      "scn": 27
+     },
+     "total_keys": 551,
+     "n_animated": 92,
+     "frames": 197
+    }
+   ],
+   "n_animated_sources": 168,
+   "nla": [],
+   "render_filepath": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\P04_MATERIAL_EXTERIOR_QUALITY_v013\\p04_detail_feature_no_push_v013.mp4",
+   "render_abspath": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\P04_MATERIAL_EXTERIOR_QUALITY_v013\\p04_detail_feature_no_push_v013.mp4"
+  },
+  {
+   "name": "03_SCN_P05_XRAY_MECHANISM",
+   "frame_start": 864,
+   "frame_end": 1440,
+   "fps": 24.0,
+   "engine": "CYCLES",
+   "res": [
+    1920,
+    1080,
+    100
+   ],
+   "samples": 512,
+   "camera": "CAM_P05_XRAY",
+   "n_objects": 119,
+   "cameras": [
+    "CAM_P05_XRAY"
+   ],
+   "lights": [
+    "LGT_P05_Key_Top",
+    "LGT_P05_Rim_Right",
+    "LGT_P05_Rim_Left",
+    "LGT_P05_Warm_Fill",
+    "LGT_P05_Under_Edge",
+    "LGT_P05_Back_Sep",
+    "LGT_P05_Motor_Accent",
+    "LGT_P05_Motor_Under",
+    "LGT_P05_Motor_Rim",
+    "LGT_P05_Internal_Fill",
+    "LGT_P05W_Key",
+    "LGT_P05W_Rim_R",
+    "LGT_P05W_Device",
+    "LGT_P05W_Fill",
+    "LGT_P05W_Skin_L"
+   ],
+   "n_drivers": 2,
+   "markers": [
+    {
+     "frame": 864,
+     "name": "P05_A_0036_BRUSHLESS_MOTOR",
+     "camera": null
+    },
+    {
+     "frame": 1008,
+     "name": "P05_B_0042_LONG_STROKE_55MM",
+     "camera": null
+    },
+    {
+     "frame": 1152,
+     "name": "P05_C_0048_CONTINUOUS_SMOOTH",
+     "camera": null
+    },
+    {
+     "frame": 1296,
+     "name": "P05_D_0054_CLIMAX",
+     "camera": null
+    }
+   ],
+   "markers_outside": [],
+   "shots": [
+    {
+     "name": "P05_A_0036_BRUSHLESS_MOTOR",
+     "start": 864,
+     "end": 1007,
+     "camera": null,
+     "keys": {
+      "obj": 287,
+      "cam": 3,
+      "lgt": 12,
+      "mat": 2,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 304,
+     "n_animated": 57,
+     "frames": 144
+    },
+    {
+     "name": "P05_B_0042_LONG_STROKE_55MM",
+     "start": 1008,
+     "end": 1151,
+     "camera": null,
+     "keys": {
+      "obj": 184,
+      "cam": 3,
+      "lgt": 6,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 193,
+     "n_animated": 7,
+     "frames": 144
+    },
+    {
+     "name": "P05_C_0048_CONTINUOUS_SMOOTH",
+     "start": 1152,
+     "end": 1295,
+     "camera": null,
+     "keys": {
+      "obj": 182,
+      "cam": 0,
+      "lgt": 6,
+      "mat": 2,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 190,
+     "n_animated": 8,
+     "frames": 144
+    },
+    {
+     "name": "P05_D_0054_CLIMAX",
+     "start": 1296,
+     "end": 1440,
+     "camera": null,
+     "keys": {
+      "obj": 381,
+      "cam": 6,
+      "lgt": 19,
+      "mat": 29,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 435,
+     "n_animated": 62,
+     "frames": 145
+    }
+   ],
+   "n_animated_sources": 65,
+   "nla": [],
+   "render_filepath": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\P05_XRAY_MECHANISM_v001\\p05_xray_",
+   "render_abspath": "D:\\接案\\26_0825_紅犀牛3D動畫\\blender\\P05_XRAY_MECHANISM_v001\\p05_xray_"
+  },
+  {
+   "name": "04_SCN_P08_SLEEVE_TUNNEL",
+   "frame_start": 2400,
+   "frame_end": 3335,
+   "fps": 24.0,
+   "engine": "CYCLES",
+   "res": [
+    1920,
+    1080,
+    100
+   ],
+   "samples": 128,
+   "camera": "CAM_P08_03_Entry",
+   "n_objects": 149,
+   "cameras": [
+    "CAM_P08_01_Activation",
+    "CAM_P08_02_Sleeves",
+    "CAM_P08_04_Tunnel",
+    "CAM_P08_05_Compare",
+    "CAM_P08_06_TunnelExit",
+    "CAM_P08_03_Entry",
+    "CAM_P08_06B_Return",
+    "CAM_P08_07_Assembly"
+   ],
+   "lights": [
+    "LGT_P08_SLVFX_A",
+    "LGT_P08_SLVFX_B",
+    "LGT_P08_SLVFX_C",
+    "LGT_P08_TUN_Ahead",
+    "LGT_P08_TUN_Key",
+    "LGT_P08_TUN_Fill",
+    "LGT_P08_TUN_Back",
+    "LGT_P08_TUN_Rim",
+    "LGT_P08_TUN_Flash",
+    "LGT_P08_EXIT_Ahead",
+    "LGT_P08_EXIT_Key",
+    "LGT_P08_EXIT_Fill",
+    "LGT_P08_PRD_Key",
+    "LGT_P08_PRD_RimR",
+    "LGT_P08_PRD_RimL",
+    "LGT_P08_PRD_Top",
+    "LGT_P08_PRD_Fill",
+    "LGT_P08_PRD_Under",
+    "LGT_P08_SLV_Key",
+    "LGT_P08_SLV_Fill",
+    "LGT_P08_SLV_RimT",
+    "LGT_P08_SLV_RimB",
+    "LGT_P08_CMP_A_Deep",
+    "LGT_P08_CMP_A_Mouth",
+    "LGT_P08_CMP_B_Deep",
+    "LGT_P08_CMP_B_Mouth",
+    "LGT_P08_CMP_C_Deep",
+    "LGT_P08_CMP_C_Mouth",
+    "LGT_P08_FX_Blue",
+    "LGT_P08_FX_Pink",
+    "LGT_P08_CMP_A_Mid",
+    "LGT_P08_CMP_B_Mid",
+    "LGT_P08_CMP_C_Mid",
+    "LGT_P08_CMP_Key",
+    "LGT_P08_CMP_Fill",
+    "LGT_P08_CMP_Rim"
+   ],
+   "n_drivers": 0,
+   "markers": [
+    {
+     "frame": 2400,
+     "name": "P08_SHOT1_ACTIVATION",
+     "camera": "CAM_P08_01_Activation"
+    },
+    {
+     "frame": 2544,
+     "name": "P08_SHOT2_THREE_SLEEVES",
+     "camera": "CAM_P08_02_Sleeves"
+    },
+    {
+     "frame": 2664,
+     "name": "P08_SHOT3_ENTER_OPENING",
+     "camera": "CAM_P08_03_Entry"
+    },
+    {
+     "frame": 2760,
+     "name": "P08_SHOT4_TUNNEL_JOURNEY",
+     "camera": "CAM_P08_04_Tunnel"
+    },
+    {
+     "frame": 3000,
+     "name": "P08_SHOT5_THREE_CHANNELS",
+     "camera": "CAM_P08_05_Compare"
+    },
+    {
+     "frame": 3096,
+     "name": "P08_SHOT6A_PULL_BACK",
+     "camera": "CAM_P08_06_TunnelExit"
+    },
+    {
+     "frame": 3140,
+     "name": "P08_SHOT6B_RETURN",
+     "camera": "CAM_P08_06B_Return"
+    },
+    {
+     "frame": 3192,
+     "name": "P08_SHOT7_REASSEMBLY",
+     "camera": "CAM_P08_07_Assembly"
+    }
+   ],
+   "markers_outside": [],
+   "shots": [
+    {
+     "name": "P08_SHOT1_ACTIVATION",
+     "start": 2400,
+     "end": 2543,
+     "camera": "CAM_P08_01_Activation",
+     "keys": {
+      "obj": 605,
+      "cam": 18,
+      "lgt": 149,
+      "mat": 38,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 810,
+     "n_animated": 46,
+     "frames": 144
+    },
+    {
+     "name": "P08_SHOT2_THREE_SLEEVES",
+     "start": 2544,
+     "end": 2663,
+     "camera": "CAM_P08_02_Sleeves",
+     "keys": {
+      "obj": 256,
+      "cam": 8,
+      "lgt": 32,
+      "mat": 23,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 319,
+     "n_animated": 91,
+     "frames": 120
+    },
+    {
+     "name": "P08_SHOT3_ENTER_OPENING",
+     "start": 2664,
+     "end": 2759,
+     "camera": "CAM_P08_03_Entry",
+     "keys": {
+      "obj": 24,
+      "cam": 25,
+      "lgt": 30,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 79,
+     "n_animated": 15,
+     "frames": 96
+    },
+    {
+     "name": "P08_SHOT4_TUNNEL_JOURNEY",
+     "start": 2760,
+     "end": 2999,
+     "camera": "CAM_P08_04_Tunnel",
+     "keys": {
+      "obj": 160,
+      "cam": 40,
+      "lgt": 32,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 232,
+     "n_animated": 87,
+     "frames": 240
+    },
+    {
+     "name": "P08_SHOT5_THREE_CHANNELS",
+     "start": 3000,
+     "end": 3095,
+     "camera": "CAM_P08_05_Compare",
+     "keys": {
+      "obj": 66,
+      "cam": 20,
+      "lgt": 161,
+      "mat": 9,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 256,
+     "n_animated": 40,
+     "frames": 96
+    },
+    {
+     "name": "P08_SHOT6A_PULL_BACK",
+     "start": 3096,
+     "end": 3139,
+     "camera": "CAM_P08_06_TunnelExit",
+     "keys": {
+      "obj": 123,
+      "cam": 5,
+      "lgt": 15,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 143,
+     "n_animated": 77,
+     "frames": 44
+    },
+    {
+     "name": "P08_SHOT6B_RETURN",
+     "start": 3140,
+     "end": 3191,
+     "camera": "CAM_P08_06B_Return",
+     "keys": {
+      "obj": 9,
+      "cam": 70,
+      "lgt": 33,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 112,
+     "n_animated": 15,
+     "frames": 52
+    },
+    {
+     "name": "P08_SHOT7_REASSEMBLY",
+     "start": 3192,
+     "end": 3335,
+     "camera": "CAM_P08_07_Assembly",
+     "keys": {
+      "obj": 40,
+      "cam": 10,
+      "lgt": 12,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 62,
+     "n_animated": 28,
+     "frames": 144
+    }
+   ],
+   "n_animated_sources": 181,
+   "nla": [],
+   "render_filepath": "C:\\Users\\mountain\\AppData\\Local\\Temp\\claude\\d-----26-0825----3D---VScode\\0118a327-9764-481a-813f-95a166b0340a\\scratchpad\\qaQ\\f3866.png",
+   "render_abspath": "C:\\Users\\mountain\\AppData\\Local\\Temp\\claude\\d-----26-0825----3D---VScode\\0118a327-9764-481a-813f-95a166b0340a\\scratchpad\\qaQ\\f3866.png"
+  },
+  {
+   "name": "05_SCN_P07_STRAP_RIG",
+   "frame_start": 1632,
+   "frame_end": 2160,
+   "fps": 24.0,
+   "engine": "BLENDER_EEVEE_NEXT",
+   "res": [
+    640,
+    360,
+    100
+   ],
+   "samples": 4096,
+   "camera": "P07_SHOT_CAM",
+   "n_objects": 70,
+   "cameras": [
+    "P07_MECH_CAM",
+    "P07_SHOT_CAM",
+    "P07_FIXCHK_CAM",
+    "P07_QA_CAM"
+   ],
+   "lights": [
+    "P07_SHOT_RAKE",
+    "P07_KEY",
+    "P07_FILL"
+   ],
+   "n_drivers": 0,
+   "markers": [
+    {
+     "frame": 1,
+     "name": "P07_TESTPOSES_A_D",
+     "camera": null
+    },
+    {
+     "frame": 1632,
+     "name": "P07_1_08_ROTATE_IN",
+     "camera": null
+    },
+    {
+     "frame": 1824,
+     "name": "P07_1_16_TWIST_LOCK_STRAP_THREAD",
+     "camera": null
+    },
+    {
+     "frame": 2016,
+     "name": "P07_1_24_HANDS_FREE",
+     "camera": null
+    },
+    {
+     "frame": 2160,
+     "name": "P07_1_30_END",
+     "camera": null
+    }
+   ],
+   "markers_outside": [
+    {
+     "frame": 1,
+     "name": "P07_TESTPOSES_A_D",
+     "camera": null
+    }
+   ],
+   "shots": [
+    {
+     "name": "P07_1_08_ROTATE_IN",
+     "start": 1632,
+     "end": 1823,
+     "camera": null,
+     "keys": {
+      "obj": 144,
+      "cam": 0,
+      "lgt": 0,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 144,
+     "n_animated": 2,
+     "frames": 192
+    },
+    {
+     "name": "P07_1_16_TWIST_LOCK_STRAP_THREAD",
+     "start": 1824,
+     "end": 2015,
+     "camera": null,
+     "keys": {
+      "obj": 720,
+      "cam": 100,
+      "lgt": 0,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 820,
+     "n_animated": 4,
+     "frames": 192
+    },
+    {
+     "name": "P07_1_24_HANDS_FREE",
+     "start": 2016,
+     "end": 2159,
+     "camera": null,
+     "keys": {
+      "obj": 144,
+      "cam": 10,
+      "lgt": 0,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 154,
+     "n_animated": 4,
+     "frames": 144
+    },
+    {
+     "name": "P07_1_30_END",
+     "start": 2160,
+     "end": 2160,
+     "camera": null,
+     "keys": {
+      "obj": 144,
+      "cam": 10,
+      "lgt": 0,
+      "mat": 0,
+      "shp": 0,
+      "scn": 0
+     },
+     "total_keys": 154,
+     "n_animated": 4,
+     "frames": 1
+    }
+   ],
+   "n_animated_sources": 4,
+   "nla": [],
+   "render_filepath": "d:/接案/26_0825_紅犀牛3D動畫/VScode/tmp/p07_strap_rig/shot/f02016",
+   "render_abspath": "d:/接案/26_0825_紅犀牛3D動畫/VScode/tmp/p07_strap_rig/shot/f02016"
+  }
+ ]
+}

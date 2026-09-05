@@ -1,0 +1,1 @@
+done  scene=SCN_P05_XRAY_MECHANISM frame=1434 engine=CYCLES samples=160 dirty=False

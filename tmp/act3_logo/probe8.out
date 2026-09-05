@@ -1,0 +1,114 @@
+=== MAT_P05W_Shell_Smoked (users=2 anim=False) nodes=13 ===
+   OUTPUT <- BACKFACE_CULL (MIX_SHADER)
+   node types: ['BSDF_PRINCIPLED', 'BSDF_TRANSPARENT', 'LAYER_WEIGHT', 'MIX', 'MIX_SHADER', 'NEW_GEOMETRY', 'OUTPUT_MATERIAL', 'VALTORGB', 'VALUE']
+   [VALUE V_XRAY] = 0.0000
+   [LAYERWEIGHT LW] Blend=0.22
+   [RAMP RAMP] stops=[(0.0, (0.06, 0.06, 0.06, 1.0)), (0.66, (0.82, 0.82, 0.82, 1.0))]
+   [TRANSPARENT SMOKE] Color=(0.6, 0.625, 0.675, 1.0)
+   [TRANSPARENT CLEAR_BACK] Color=(1.0, 1.0, 1.0, 1.0)
+   [PRINCIPLED SURF_RIM] Base Color=(0.035, 0.038, 0.045, 1.0) Metallic=0.0 Roughness=0.3 IOR=1.45 Alpha=1.0 Specular IOR Level=0.34 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+   [MIX_SHADER MIX_SH] Fac<-MIX_A | Shader<-SMOKE | Shader<-MIX_XR
+   [MIX_SHADER BACKFACE_CULL] Fac<-GEO | Shader<-MIX_SH | Shader<-CLEAR_BACK
+   [PRINCIPLED SURF_SOLID] Base Color=(0.014, 0.016, 0.02, 1.0) Metallic=0.0 Roughness=0.13 IOR=1.46 Alpha=1.0 Specular IOR Level=0.5 Coat Weight=0.35 Coat Roughness=0.05 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+   [MIX_SHADER MIX_XR] Fac<-V_XRAY | Shader<-SURF_SOLID | Shader<-SURF_RIM
+
+=== Clear Rough Plastic Black #2 (users=2 anim=True) nodes=10 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'NORMAL_MAP', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED Principled BSDF] Base Color=(0.0, 0.0, 0.0, 1.0) Metallic=1.0 Roughness=0.5528 IOR=1.5 Alpha=1.0 Specular IOR Level=1.0 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0 Anisotropic=0.0
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-Principled BSDF | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+=== MAT_P05W_Shell_Smoked_Rear (users=2 anim=False) nodes=13 ===
+   OUTPUT <- BACKFACE_CULL (MIX_SHADER)
+   node types: ['BSDF_PRINCIPLED', 'BSDF_TRANSPARENT', 'LAYER_WEIGHT', 'MIX', 'MIX_SHADER', 'NEW_GEOMETRY', 'OUTPUT_MATERIAL', 'VALTORGB', 'VALUE']
+   [VALUE V_XRAY] = 0.0000
+   [LAYERWEIGHT LW] Blend=0.22
+   [RAMP RAMP] stops=[(0.0, (0.075, 0.075, 0.075, 1.0)), (0.66, (0.85, 0.85, 0.85, 1.0))]
+   [TRANSPARENT SMOKE] Color=(0.55, 0.572, 0.622, 1.0)
+   [TRANSPARENT CLEAR_BACK] Color=(1.0, 1.0, 1.0, 1.0)
+   [PRINCIPLED SURF_RIM] Base Color=(0.03, 0.032, 0.04, 1.0) Metallic=0.0 Roughness=0.33 IOR=1.45 Alpha=1.0 Specular IOR Level=0.34 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+   [MIX_SHADER MIX_SH] Fac<-MIX_A | Shader<-SMOKE | Shader<-MIX_XR
+   [MIX_SHADER BACKFACE_CULL] Fac<-GEO | Shader<-MIX_SH | Shader<-CLEAR_BACK
+   [PRINCIPLED SURF_SOLID] Base Color=(0.011, 0.012, 0.015, 1.0) Metallic=0.0 Roughness=0.18 IOR=1.46 Alpha=1.0 Specular IOR Level=0.5 Coat Weight=0.35 Coat Roughness=0.05 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+   [MIX_SHADER MIX_XR] Fac<-V_XRAY | Shader<-SURF_SOLID | Shader<-SURF_RIM
+
+=== Paint Matte Black #2 (users=1 anim=True) nodes=10 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'NORMAL_MAP', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED Principled BSDF] Base Color=(0.0, 0.0, 0.0, 1.0) Metallic=1.0 Roughness=0.5528 IOR=1.5 Alpha=1.0 Specular IOR Level=1.0 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0 Anisotropic=0.0
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-Principled BSDF | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+=== MAT_P05W_Shell_FrontPlate (users=2 anim=False) nodes=13 ===
+   OUTPUT <- BACKFACE_CULL (MIX_SHADER)
+   node types: ['BSDF_PRINCIPLED', 'BSDF_TRANSPARENT', 'LAYER_WEIGHT', 'MIX', 'MIX_SHADER', 'NEW_GEOMETRY', 'OUTPUT_MATERIAL', 'VALTORGB', 'VALUE']
+   [VALUE V_XRAY] = 0.0000
+   [LAYERWEIGHT LW] Blend=0.22
+   [RAMP RAMP] stops=[(0.0, (0.09, 0.09, 0.09, 1.0)), (0.66, (0.8, 0.8, 0.8, 1.0))]
+   [TRANSPARENT SMOKE] Color=(0.55, 0.575, 0.62, 1.0)
+   [TRANSPARENT CLEAR_BACK] Color=(1.0, 1.0, 1.0, 1.0)
+   [PRINCIPLED SURF_RIM] Base Color=(0.045, 0.048, 0.058, 1.0) Metallic=0.0 Roughness=0.26 IOR=1.45 Alpha=1.0 Specular IOR Level=0.36 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+   [MIX_SHADER MIX_SH] Fac<-MIX_A | Shader<-SMOKE | Shader<-MIX_XR
+   [MIX_SHADER BACKFACE_CULL] Fac<-GEO | Shader<-MIX_SH | Shader<-CLEAR_BACK
+   [PRINCIPLED SURF_SOLID] Base Color=(0.018, 0.02, 0.026, 1.0) Metallic=0.0 Roughness=0.1 IOR=1.46 Alpha=1.0 Specular IOR Level=0.5 Coat Weight=0.35 Coat Roughness=0.05 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+   [MIX_SHADER MIX_XR] Fac<-V_XRAY | Shader<-SURF_SOLID | Shader<-SURF_RIM
+
+=== Paint Matte Black #1.006 (users=1 anim=True) nodes=10 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'NORMAL_MAP', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED Principled BSDF] Base Color=(0.0025, 0.0025, 0.0025, 1.0) Metallic=1.0 Roughness=0.5528 IOR=1.5 Alpha=1.0 Specular IOR Level=1.0 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0 Anisotropic=0.0
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-Principled BSDF | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+=== MAT_P05W_Bezel_Steel (users=1 anim=False) nodes=2 ===
+   OUTPUT <- Principled BSDF (BSDF_PRINCIPLED)
+   node types: ['BSDF_PRINCIPLED', 'OUTPUT_MATERIAL']
+   [PRINCIPLED Principled BSDF] Base Color=(0.46, 0.48, 0.52, 1.0) Metallic=1.0 Roughness=0.26 IOR=1.5 Alpha=1.0 Specular IOR Level=0.5 Coat Weight=0.05 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.0
+
+=== MAT_P04_Clean_Satin_Silver_Bezel (users=1 anim=True) nodes=9 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED P04 Clean Satin Silver] Base Color=(0.52, 0.56, 0.62, 1.0) Metallic=1.0 Roughness=0.23 IOR=1.5 Alpha=1.0 Specular IOR Level=0.5 Coat Weight=0.12 Coat Roughness=0.1 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0 Anisotropic=0.06
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-P04 Clean Satin Silver | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+=== Paint Matte Black #1.007 (users=1 anim=True) nodes=10 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'NORMAL_MAP', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED Principled BSDF] Base Color=(0.0025, 0.0025, 0.0025, 1.0) Metallic=1.0 Roughness=0.5528 IOR=1.5 Alpha=1.0 Specular IOR Level=1.0 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0 Anisotropic=0.0
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-Principled BSDF | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+=== Paint Matte Black #1.014 (users=1 anim=True) nodes=10 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'NORMAL_MAP', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED Principled BSDF] Base Color=(0.0025, 0.0025, 0.0025, 1.0) Metallic=1.0 Roughness=0.5528 IOR=1.5 Alpha=1.0 Specular IOR Level=1.0 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0 Anisotropic=0.0
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-Principled BSDF | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+=== SHOT1_CONTROL_38_0.002_0 (users=1 anim=True) nodes=12 ===
+   FCU nodes["IGNITION_Rim_Amount"].outputs[0].default_value : [(216, 0.0), (1084, 0.0), (1108, 0.06), (1128, 0.15), (1148, 0.32), (1161, 0.55)]
+   OUTPUT <- IGNITION_Glow_Add (ADD_SHADER)
+   node types: ['ADD_SHADER', 'BSDF_PRINCIPLED', 'BSDF_TRANSPARENT', 'EMISSION', 'LAYER_WEIGHT', 'MATH', 'MIX_SHADER', 'NORMAL_MAP', 'OUTPUT_MATERIAL', 'VALUE']
+   [PRINCIPLED Principled BSDF] Base Color=(0.7922, 0.8196, 0.9333, 1.0) Metallic=1.0 Roughness=0.5528 IOR=1.5 Alpha=1.0 Specular IOR Level=1.0 Coat Weight=0.0 Coat Roughness=0.03 Coat IOR=1.5 Transmission Weight=0.0 Sheen Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0 Anisotropic=0.0
+   [TRANSPARENT SHOT1_CONTROL_Transparent] Color=(1.0, 1.0, 1.0, 1.0)
+   [MIX_SHADER SHOT1_CONTROL_Fade] Fac=1.0 | Shader<-SHOT1_CONTROL_Transparent | Shader<-Principled BSDF
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-SHOT1_CONTROL_Fade | Shader<-IGNITION_Glow_Emission
+   [VALUE IGNITION_Rim_Amount] = 0.0000
+   [LAYERWEIGHT IGNITION_Rim_LW] Blend=0.5
+
+--- 0.1s
+

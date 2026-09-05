@@ -1,0 +1,35 @@
+--- 0.0s
+=== MAT_P01_CONTROL_BUTTONS (users=1 anim=True nodes=7) ===
+   FCU nodes["Principled BSDF"].inputs[0].default_value : [(1, 0.792), (200, 0.792), (240, 0.485), (280, 0.371), (320, 0.341), (360, 0.341)]
+   FCU nodes["Principled BSDF"].inputs[0].default_value : [(1, 0.82), (200, 0.82), (240, 0.502), (280, 0.384), (320, 0.353), (360, 0.353)]
+   FCU nodes["Principled BSDF"].inputs[0].default_value : [(1, 0.933), (200, 0.933), (240, 0.571), (280, 0.437), (320, 0.402), (360, 0.402)]
+   FCU nodes["Principled BSDF"].inputs[0].default_value : [(1, 1.0), (200, 1.0), (240, 1.0), (280, 1.0), (320, 1.0), (360, 1.0)]
+   FCU nodes["Principled BSDF"].inputs[2].default_value : [(1, 0.553), (200, 0.553), (240, 0.6), (280, 0.64), (320, 0.66), (360, 0.66)]
+   OUTPUT <- IGNITION_Glow_Add
+   [PRINCIPLED Principled BSDF] Base Color=(0.3414, 0.3532, 0.4023, 1.0) Metallic=1.0 Roughness=0.66 Specular IOR Level=1.0 Coat Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0
+   [MIX_SHADER SHOT1_CONTROL_Fade] Fac=1.0 | Shader<-SHOT1_CONTROL_Transparent.BSDF | Shader<-Principled BSDF.BSDF
+   [ADD_SHADER IGNITION_Glow_Add] Shader<-SHOT1_CONTROL_Fade.Shader | Shader<-IGNITION_Glow_Emission.Emission
+
+=== MAT_P05W_Control_Plate (users=1 anim=True nodes=18) ===
+   FCU nodes["KEY_UP"].outputs[0].default_value : [(1305, 0.0), (1345, 0.0), (1348, 1.0), (1353, 0.85), (1361, 0.0), (1374, 0.0), (1377, 1.0), (1382, 0.85), (1390, 0.0), (1403, 0.0)]
+   OUTPUT <- Add Shader
+   [PRINCIPLED Principled BSDF] Base Color=(0.03, 0.032, 0.038, 1.0) Metallic=0.2 Roughness=0.28 Specular IOR Level=0.5 Coat Weight=0.1 Emission Color=(1.0, 1.0, 1.0, 1.0) Emission Strength=0.0
+   [TEX_COORD Texture Coordinate] 
+   [SEPXYZ SEP] Vector<-Texture Coordinate.Object
+   [MAP_RANGE RAD] Value<-Vector Math.001.Value | From Min=6.8 | From Max=9.6 | To Min=1.0 | To Max=0.0 | Steps=4.0 | Vector=(0.0, 0.0, 0.0) | From Min=(0.0, 0.0, 0.0) | From Max=(1.0, 1.0, 1.0) | To Min=(0.0, 0.0, 0.0)
+   [MAP_RANGE ZGATE] Value<-SEP.Z | From Min=-173.6 | From Max=-173.0 | To Min=1.0 | To Max=0.0 | Steps=4.0 | Vector=(0.0, 0.0, 0.0) | From Min=(0.0, 0.0, 0.0) | From Max=(1.0, 1.0, 1.0) | To Min=(0.0, 0.0, 0.0) | To Max=
+   [VALUE KEY_UP] out=0.0000 
+   [MATH Math] Value<-RAD.Result | Value<-ZGATE.Result | Value=0.5
+   [MATH Math.001] Value<-Math.Value | Value<-KEY_UP.Value | Value=0.5
+   [MATH Math.002] Value<-FACE_MOD.Value | Value=1.4 | Value=0.5
+   [ADD_SHADER Add Shader] Shader<-Principled BSDF.BSDF | Shader<-Emission.Emission
+   [LAYER_WEIGHT LWK] Blend=0.35 | Normal=(0.0, 0.0, 0.0)
+   [MATH FACE_POW] Value<-LWK.Facing | Value=1.4 | Value=0.5
+   [MATH FACE_MOD] Value<-Math.001.Value | Value<-FACE_POW.Value | Value=0.5
+
+=== MAT_P05W2_SHOT1_CONTROL_38_0.002_0 (users=1 anim=False nodes=5) ===
+   OUTPUT <- SHOT1_CONTROL_Fade
+   [PRINCIPLED Principled BSDF] Base Color=(0.7922, 0.8196, 0.9333, 1.0) Metallic=1.0 Roughness=0.5528 Specular IOR Level=1.0 Coat Weight=0.0 Emission Color=(0.0, 0.0, 0.0, 1.0) Emission Strength=1.0
+   [MIX_SHADER SHOT1_CONTROL_Fade] Fac=1.0 | Shader<-SHOT1_CONTROL_Transparent.BSDF | Shader<-Principled BSDF.BSDF
+
+

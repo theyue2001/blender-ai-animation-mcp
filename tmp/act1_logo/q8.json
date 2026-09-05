@@ -1,0 +1,742 @@
+{
+ "who_instances": {
+  "SRC_OPENING_HUMAN_LINKED": [
+   "INST_Opening_Human"
+  ],
+  "SRC_OPENING_NITE_PRODUCT_LINKED": [
+   "INST_Opening_NITE_Product"
+  ],
+  "SRC_P04_NITE_PRODUCT_CLEAN_BEZEL": [
+   "INST_P04_NITE_Product"
+  ]
+ },
+ "shot1_control_mats": {
+  "SHOT1_CONTROL_12.002_0": {
+   "users": 1,
+   "objs": [
+    "12.002",
+    "EXP_12.002"
+   ],
+   "colls": [
+    "P04_EXPLODE_PARTS",
+    "SRC_OPENING_NITE_PRODUCT_LINKED",
+    "SRC_P04_NITE_PRODUCT_CLEAN_BEZEL"
+   ],
+   "base": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_20.002_0": {
+   "users": 1,
+   "objs": [
+    "20.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_27.002_0": {
+   "users": 1,
+   "objs": [
+    "27.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_28.002_0": {
+   "users": 1,
+   "objs": [
+    "28.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_38_0.002_0": {
+   "users": 1,
+   "objs": [
+    "38_0.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_4.002_0": {
+   "users": 1,
+   "objs": [
+    "4.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_42.002_0": {
+   "users": 1,
+   "objs": [
+    "42.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_48.002_0": {
+   "users": 1,
+   "objs": [
+    "48.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_49.002_0": {
+   "users": 4,
+   "objs": [
+    "49.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_8.002_0": {
+   "users": 1,
+   "objs": [
+    "8.002"
+   ],
+   "colls": [
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_Disc #1.002_0": {
+   "users": 1,
+   "objs": [
+    "Disc #1.002",
+    "X5_Disc #1.002"
+   ],
+   "colls": [
+    "P05_LINK_XRAY_RECV",
+    "P05_XRAY_SHELL",
+    "SRC_OPENING_NITE_PRODUCT_LINKED"
+   ],
+   "base": [
+    0.7922,
+    0.8196,
+    0.9333,
+    1.0
+   ],
+   "rough": 0.553,
+   "metal": 1.0,
+   "spec": 1.0,
+   "coat": 0.0,
+   "basecol_linked": false
+  },
+  "SHOT1_CONTROL_Disc #2.002_0": {
+   "users": 1,
+   "objs": [
+    "Disc #2.002",
+    "EXP_Disc #2.002"
+   ],
+   "colls": [
+    "P04_EXPLODE_PARTS",
+    "SRC_OPENING_NITE_PRODUCT_LINKED",
+    "SRC_P04_NITE_PRODUCT_CLEAN_BEZEL"
+   ],
+   "base": null,
+   "rough": null,
+   "metal": null,
+   "spec": null,
+   "coat": null,
+   "basecol_linked": null
+  },
+  "SHOT1_CONTROL_Disc.002_0": {
+   "users": 1,
+   "objs": [
+    "Disc.002",
+    "EXP_Disc.002"
+   ],
+   "colls": [
+    "P04_EXPLODE_PARTS",
+    "SRC_OPENING_NITE_PRODUCT_LINKED",
+    "SRC_P04_NITE_PRODUCT_CLEAN_BEZEL"
+   ],
+   "base": null,
+   "rough": null,
+   "metal": null,
+   "spec": null,
+   "coat": null,
+   "basecol_linked": null
+  }
+ },
+ "cam": {
+  "loc": [
+   -0.019,
+   4.156,
+   0.36
+  ],
+  "px_logo": [
+   950,
+   517
+  ]
+ },
+ "front_lower_objs": [
+  {
+   "n": "Disc #1.002",
+   "px": [
+    943,
+    887,
+    951,
+    894
+   ],
+   "mat": "SHOT1_CONTROL_Disc #1.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "Disc #2.002",
+   "px": [
+    943,
+    1024,
+    951,
+    1032
+   ],
+   "mat": "SHOT1_CONTROL_Disc #2.002_0",
+   "sc01_only": false
+  },
+  {
+   "n": "Disc.002",
+   "px": [
+    943,
+    803,
+    951,
+    811
+   ],
+   "mat": "SHOT1_CONTROL_Disc.002_0",
+   "sc01_only": false
+  },
+  {
+   "n": "30_1.002",
+   "px": [
+    938,
+    779,
+    974,
+    816
+   ],
+   "mat": "Paint Matte Black #5.002",
+   "sc01_only": false
+  },
+  {
+   "n": "17.002",
+   "px": [
+    1029,
+    668,
+    1060,
+    715
+   ],
+   "mat": "Paint Matte Black #1.002",
+   "sc01_only": false
+  },
+  {
+   "n": "53.002",
+   "px": [
+    932,
+    808,
+    969,
+    848
+   ],
+   "mat": "Paint Matte Black #5.005",
+   "sc01_only": false
+  },
+  {
+   "n": "18.002",
+   "px": [
+    839,
+    668,
+    871,
+    715
+   ],
+   "mat": "Paint Matte Black #1.003",
+   "sc01_only": false
+  },
+  {
+   "n": "51.002",
+   "px": [
+    926,
+    801,
+    973,
+    867
+   ],
+   "mat": "Paint Matte Black #1.011",
+   "sc01_only": false
+  },
+  {
+   "n": "14.002",
+   "px": [
+    912,
+    734,
+    988,
+    783
+   ],
+   "mat": "Paint Matte Black #5.003",
+   "sc01_only": false
+  },
+  {
+   "n": "23.002",
+   "px": [
+    1129,
+    823,
+    1176,
+    914
+   ],
+   "mat": "Paint Matte Black #1.005",
+   "sc01_only": false
+  },
+  {
+   "n": "28.002",
+   "px": [
+    1105,
+    844,
+    1176,
+    907
+   ],
+   "mat": "SHOT1_CONTROL_28.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "27.002",
+   "px": [
+    727,
+    843,
+    805,
+    907
+   ],
+   "mat": "SHOT1_CONTROL_27.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "22.002",
+   "px": [
+    723,
+    823,
+    789,
+    913
+   ],
+   "mat": "Paint Matte Black #1.004",
+   "sc01_only": false
+  },
+  {
+   "n": "8.002",
+   "px": [
+    880,
+    539,
+    1026,
+    600
+   ],
+   "mat": "SHOT1_CONTROL_8.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "63.002",
+   "px": [
+    1099,
+    491,
+    1191,
+    630
+   ],
+   "mat": "Paint Matte Black #2.002",
+   "sc01_only": false
+  },
+  {
+   "n": "64.005",
+   "px": [
+    737,
+    491,
+    830,
+    630
+   ],
+   "mat": "Paint Matte Black #2.003",
+   "sc01_only": false
+  },
+  {
+   "n": "55.002",
+   "px": [
+    889,
+    923,
+    1012,
+    1048
+   ],
+   "mat": "Paint Matte Black #1.012",
+   "sc01_only": false
+  },
+  {
+   "n": "44.002",
+   "px": [
+    759,
+    893,
+    871,
+    1061
+   ],
+   "mat": "Paint Matte Black #1.008",
+   "sc01_only": false
+  },
+  {
+   "n": "45.002",
+   "px": [
+    855,
+    941,
+    1048,
+    1053
+   ],
+   "mat": "Paint Matte Black #1.009",
+   "sc01_only": false
+  },
+  {
+   "n": "12.002",
+   "px": [
+    853,
+    642,
+    1047,
+    792
+   ],
+   "mat": "SHOT1_CONTROL_12.002_0",
+   "sc01_only": false
+  },
+  {
+   "n": "4.002",
+   "px": [
+    800,
+    569,
+    1101,
+    688
+   ],
+   "mat": "SHOT1_CONTROL_4.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "46.002",
+   "px": [
+    802,
+    1008,
+    1100,
+    1145
+   ],
+   "mat": "Paint Matte Black #1.010",
+   "sc01_only": false
+  },
+  {
+   "n": "30_0_1.002",
+   "px": [
+    816,
+    706,
+    1095,
+    862
+   ],
+   "mat": "Paint Matte Black #5.001",
+   "sc01_only": false
+  },
+  {
+   "n": "10.002",
+   "px": [
+    823,
+    388,
+    1079,
+    603
+   ],
+   "mat": "Paint Matte Black #1.001",
+   "sc01_only": false
+  },
+  {
+   "n": "1.002",
+   "px": [
+    777,
+    537,
+    1121,
+    717
+   ],
+   "mat": "Paint Matte Black #3",
+   "sc01_only": false
+  },
+  {
+   "n": "49.002",
+   "px": [
+    823,
+    790,
+    1071,
+    1042
+   ],
+   "mat": "SHOT1_CONTROL_49.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "42.002",
+   "px": [
+    793,
+    898,
+    1087,
+    1111
+   ],
+   "mat": "SHOT1_CONTROL_42.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "30_0_0.002",
+   "px": [
+    780,
+    655,
+    1129,
+    888
+   ],
+   "mat": "Paint Matte Black #5",
+   "sc01_only": false
+  },
+  {
+   "n": "25.002",
+   "px": [
+    786,
+    790,
+    1125,
+    1038
+   ],
+   "mat": "Paint Matte Black #5.004",
+   "sc01_only": false
+  },
+  {
+   "n": "mesh.002",
+   "px": [
+    780,
+    642,
+    1134,
+    1025
+   ],
+   "mat": "Rubber #2",
+   "sc01_only": false
+  },
+  {
+   "n": "P01_STRAP_LOWER",
+   "px": [
+    322,
+    510,
+    1591,
+    619
+   ],
+   "mat": "Rubber #5",
+   "sc01_only": true
+  },
+  {
+   "n": "38_0.002",
+   "px": [
+    764,
+    711,
+    1131,
+    1099
+   ],
+   "mat": "SHOT1_CONTROL_38_0.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "57.002",
+   "px": [
+    769,
+    618,
+    1152,
+    1011
+   ],
+   "mat": "Paint Matte Black #1.014",
+   "sc01_only": false
+  },
+  {
+   "n": "48.002",
+   "px": [
+    761,
+    625,
+    1159,
+    1023
+   ],
+   "mat": "SHOT1_CONTROL_48.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "36_0.002",
+   "px": [
+    750,
+    604,
+    1170,
+    1035
+   ],
+   "mat": "Paint Matte Black #2",
+   "sc01_only": false
+  },
+  {
+   "n": "32.002",
+   "px": [
+    730,
+    709,
+    1165,
+    1135
+   ],
+   "mat": "Paint Matte Black #1.006",
+   "sc01_only": false
+  },
+  {
+   "n": "20.002",
+   "px": [
+    745,
+    613,
+    1174,
+    1045
+   ],
+   "mat": "SHOT1_CONTROL_20.002_0",
+   "sc01_only": true
+  },
+  {
+   "n": "40.002",
+   "px": [
+    682,
+    818,
+    1214,
+    1180
+   ],
+   "mat": "Paint Matte Black #1.007",
+   "sc01_only": false
+  },
+  {
+   "n": "34.002",
+   "px": [
+    680,
+    644,
+    1215,
+    1183
+   ],
+   "mat": "MAT_OPENING_Bezel_Satin_Controlled_v028",
+   "sc01_only": true
+  },
+  {
+   "n": "16_0.002",
+   "px": [
+    681,
+    314,
+    1215,
+    921
+   ],
+   "mat": "Clear Rough Plastic Black #2",
+   "sc01_only": false
+  },
+  {
+   "n": "58.002",
+   "px": [
+    655,
+    -40,
+    1273,
+    782
+   ],
+   "mat": "Paint Matte Black #2.001",
+   "sc01_only": false
+  }
+ ]
+}
+
